@@ -1,28 +1,66 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,500,700,700italic,900,900italic);
 
+@import url(https://fonts.googleapis.com/css?family=Fauna+One);
+
+
+* {
+  max-width: 1500px;
+}
+
 body {
   background-image: url(../img/balloons.jpg);
   background-repeat: no-repeat;
   font-family: 'Roboto';
 }
 
+.container {
+  position: relative;
+}
+
+
+
 .container h1{
   text-align: center;
   margin-top: 180px;
 }
 
+.logo {
+  max-width: 70px;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+
 .thankful {
   font-weight: 100;
-  font-size: 24px;
+  font-size: 32px;
   color: #fff;
+  margin-left: 100px;
+  position: absolute;
+  margin-top: -55px;
+  margin-left: 120px;
+}
+
+.navbar {
+  float: right;
+  margin-top: -50px;
+  margin-right: 25px;
+  position: absolute;
+  left: 1150px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 400;
+  padding-right: 15px;
 }
 
 .topText {
   /*text-align: center;*/
   font-size: 64px;
   letter-spacing: 1px;
-  color: #fff;
-  font-weight: 100;
+  color: #000;
+  font-weight: 200;
   letter-spacing: 1px;
   margin-left: 10px;
 
@@ -30,14 +68,44 @@ body {
 
 .bottomText {
   font-size: 148px;
-  /*letter-spacing: 8px;*/
+  color: #000;
+  font-weight: 200;
+}
+
+.btn-container {
+  background-color: rgba(231,137,112,0.4);
+  border-radius: 4px;
+  width: 215px;
+  display: block;
+  padding: 0.4rem;
+  height: 48px;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  background-color: #e78970;
+  display: block;
+  border-radius: 2px;
   color: #fff;
-  font-weight: 100;
-  /*text-align: center;*/
+  text-decoration: none;
+  padding: 15px;
+  text-align: center;
+}
+
+.congratsText {
+  color: white;
+  font-family: 'Fauna One', serif;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1px;
 }
 
 hr {
     border: 0;
-    height: 3px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
