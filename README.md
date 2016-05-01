@@ -6,7 +6,7 @@ February 8, 2016
 
 ### Description
 
-This lesson was to translae a wedding page mock-up into code sans Bootstrap.
+This lesson was to translate a wedding page mock-up into code sans Bootstrap.
 
 
 ### Technologies Used
